@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{%load static%}
+{% block title %}What{% endblock  %}
+{% block content %}
+<!-- Build to last Always growing. -->
+<div class="w-[100%] h-[80vh] mt-[40px] m-auto px-4 bg-gray-200 flex items-center">
+    <div class="h-[478px] flex justify-between w-[98%]">
+        <h1 class="w-[479.92px] h-[110px] ">
+            <p class="w-[212px] h-[50px] font-[400] text-[37px] leading-[49.4px] tracking-[0.2px]">Built to last.</p>
+            <p class="w-[294px] h-[50px] font-[400] text-[35px] leading-[49.4px] tracking-[0.2px]">Always growing.</p>
+        </h1>
+        <div class="w-[544px] h-[478px] ">
+            <hr class="border border-1 border-gray-600 mt-2">
+            <p class="w-[522px] h-[135px] font-[400] text-[17px] mt-[50px] leading-[27px] tracking-[0.2px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+            <div class="w-[544px] h-[238px] grid grid-cols-2 mt-3">
+                <div class="w-[252px] h-[99px]">
+                    <h3 class="font-[400] text-[72px]">127</h3>
+                    <p>Projects done</p>
+                </div>
+                <div class="w-[252px] h-[99px]">
+                    <h3 class="font-[400] text-[72px]">24</h3>
+                    <p>Team members</p>
+                </div>
+                <div class="w-[252px] h-[99px]">
+                    <h3 class="font-[400] text-[72px]">87%</h3>
+                    <p>Chance of coffee</p>
+                </div>
+                <div class="w-[252px] h-[99px]">
+                    <h3 class="font-[400] text-[72px]">4.7</h3>
+                    <p>Average rating</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock  %}

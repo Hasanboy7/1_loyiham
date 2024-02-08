@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{%load static%}
+{% block title %}Get{% endblock  %}
+{% block content %}
+<!-- Some of our recent clients -->
+<div class="w-[100%] h-[487px] bg-gray-200 flex items-center justify-center">
+    <div class="h-[327px] w-[98%] px-4">
+        <h1 class="text-center text-[50px]">Some of our recent clients</h1>
+        <hr class="border border-1 border-gray-600 mt-[30px]">
+        <div class="flex justify-between items-center h-[85px]  w-[90%] m-auto mt-[40px]">
+            <img src="{%static 'images/1.png'%}" alt="">
+            <img src="{%static 'images/2.png'%}" alt="">
+            <img src="{%static 'images/3.png'%}" alt="">
+            <img src="{%static 'images/4.png'%}" alt="">
+        </div>
+        <div class="flex justify-between items-center h-[85px]  w-[90%] m-auto">
+            <img src="{%static 'images/5.png'%}" alt="">
+            <img src="{%static 'images/6.png'%}" alt="">
+            <img src="{%static 'images/1.png'%}" alt="">
+            <img src="{%static 'images/2.png'%}" alt="">
+        </div>
+        <hr class="border border-1 border-gray-600 mt-[40px]">
+    </div>
+</div>
+<!-- Ready to start -->
+<div class="w-[100%] h-[158px] bg-[#E0F391] flex justify-center">
+    <div class="h-[78px] w-[98%] px-4">
+        <hr class="border border-1 border-gray-600 mt-[40px]">
+        <div class="flex justify-between items-center mt-[30px]">
+            <h1 class="text-[25px]">Ready to start</h1>
+            <button class="w-[166px] h-[45px] bg-black text-white">See all work</button>
+        </div>
+    </div>
+</div>
+{% endblock  %}

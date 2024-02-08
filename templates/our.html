@@ -1,0 +1,90 @@
+{% extends "base.html" %}
+{%load static%}
+{% block title %}Our{% endblock  %}
+{% block content %}
+<!-- Recent work -->
+<div class="h-[2504.17px] w-[98%] m-auto px-4 relative">
+    <h1 class="flex items-end gap-4">
+        <p class="text-[56px]">Recent</p>
+        <p class="text-[52px]">work</p>
+    </h1>
+    <div class="h-[2342.17px] mt-[40px] flex flex-wrap gap-x-20">
+       <div>
+        <div class="h-[811.19px] w-[600px]">
+            <img src="{%static 'images/IMAGE.png'%}" alt="" class="w-[600px] h-[720px]">
+            <br>
+            <hr class="border border-1 border-gray-600">
+            <h2 class="w-[174px] h-[34px] font-[400] text-[25px] leading-[33.6px] tracking-[0.2px]">Rockfront Wine</h2>
+            <div class="w-[320px] h-[24px] flex justify-between items-center gap-1 text-gray-700">
+                <p>Rockfront Wine <span class="text-gray-400 text-[18px]">/</span></p>
+                <p>Digital Content <span class="text-gray-400 text-[18px]">/</span></p>
+                <p>Website <span class="text-gray-900 text-[18px]">/</span></p>
+            </div>
+        </div>
+        <div class="h-[763.75px] w-[600px] mt-[50px]">
+            <img src="{%static 'images/IMAGE (2).png'%}" alt="" class="w-[600px] h-[673px]">
+            <br>
+            <hr class="border border-1 border-gray-600">
+            <h2 class="w-[174px] h-[34px] font-[400] text-[25px] leading-[33.6px] tracking-[0.2px]">Miami Gin</h2>
+            <div class="w-[297.05px] h-[24px] flex items-center gap-1 text-gray-700">
+                <p>Website <span class="text-gray-400 text-[18px]">/</span></p>
+                <p>Illustration <span class="text-gray-400 text-[18px]">/</span></p>
+                <p>Art Direction <span class="text-gray-900 text-[18px]">/</span></p>
+            </div>
+        </div>
+        <div class="h-[575.23px] w-[600px] mt-[50px]">
+            <img src="{%static 'images/IMAGE (5).png'%}" alt="" class="w-[600px] h-[484px]">
+            <br>
+            <hr class="border border-1 border-gray-600">
+            <h2 class="w-[180px] h-[34px] font-[400] text-[25px] leading-[33.6px] tracking-[0.2px] ">Batch Gummies</h2>
+            <div class="w-[235.63px] h-[24px] flex items-center gap-1 text-gray-700">
+                <p>Illustration <span class="text-gray-400 text-[18px]">/</span></p>
+                <p>Visual Identity <span class="text-gray-900 text-[18px]">/</span></p>
+            </div>
+        </div>
+       </div>
+
+       <div>
+           <div class="h-[570.7px] w-[600px]">
+               <img src="{%static 'images/IMAGE (1).png'%}" alt="" class="w-[600px] h-[480px]">
+               <br>
+               <hr class="border border-1 border-gray-600">
+               <h2 class=" h-[34px] font-[400] text-[25px] leading-[33.6px] tracking-[0.2px]">Better Coffee Co</h2>
+               <div class="w-[320px] h-[24px] flex items-center gap-1 text-gray-700">
+                   <p>Art Direction <span class="text-gray-400 text-[18px]">/</span></p>
+                   <p>Packaging <span class="text-gray-400 text-[18px]">/</span></p>
+                   <p>Illustration <span class="text-gray-900 text-[18px]">/</span></p>
+               </div>
+           </div>
+           
+           <div class="h-[629.83px] w-[600px] mt-[50px]">
+               <img src="{%static 'images/IMAGE (3).png'%}" alt="" class="w-[600px] h-[539px]">
+               <br>
+               <hr class="border border-1 border-gray-600">
+               <h2 class=" h-[34px] font-[400] text-[25px] leading-[33.6px] tracking-[0.2px]">Lumin Skincare</h2>
+               <div class=" h-[24px] flex items-center gap-1 text-gray-700">
+                   <p>Website <span class="text-gray-400 text-[18px]">/</span></p>
+                   <p>Visual Identity <span class="text-gray-400 text-[18px]">/</span></p>
+                   <p>Packaging <span class="text-gray-400 text-[18px]">/</span></p>
+                   <p>Illustration<span class="text-gray-900 text-[18px]">/</span></p>
+               </div>
+           </div>
+           <div class="h-[688.98px] w-[600px] mt-[50px]">
+               <img src="{%static 'images/IMAGE (4).png'%}" alt="" class="w-[600px] h-[598px]">
+               <br>
+               <hr class="border border-1 border-gray-600">
+               <h2 class="w-[174px] h-[34px] font-[400] text-[25px] leading-[33.6px] tracking-[0.2px]">Good Skin Club</h2>
+               <div class=" h-[24px] flex items-center gap-1 text-gray-700">
+                   <p>Packaging <span class="text-gray-400 text-[18px]">/</span></p>
+                   <p>Art Direction <span class="text-gray-400 text-[18px]">/</span></p>
+                   <p>Digital Content <span class="text-gray-400 text-[18px]">/</span></p>
+                   <p> Illustration<span class="text-gray-900 text-[18px]">/</span></p>
+               </div>
+           </div>
+       </div>
+        
+        
+    </div>
+    <button class="w-[166px] h-[45px] bg-black text-white absolute bottom-0 left-0">See all work</button>
+</div>
+{% endblock  %}
